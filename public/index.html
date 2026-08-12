@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#09090c" />
+  <meta name="description" content="Sharwin Vas — Software Developer portfolio. Machine learning, data analysis and full-stack development." />
+  <title>Sharwin Vas — Software Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+<div class="site-shell">
+  <div class="grain" aria-hidden="true"></div>
+  <header class="topbar" id="topbar">
+    <a class="wordmark" href="#top" aria-label="Sharwin Vas home">SV<span>.</span></a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav" aria-label="Toggle navigation"><span></span><span></span></button>
+    <nav id="main-nav" class="nav">
+      <a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#education">Education</a><a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero section-pad">
+      <div class="hero-grid-line hero-grid-line--a"></div><div class="hero-grid-line hero-grid-line--b"></div>
+      <div class="hero-orbit hero-orbit--one"></div><div class="hero-orbit hero-orbit--two"></div>
+      <div class="hero-copy reveal">
+        <p class="eyebrow"><span class="status-dot"></span> Available for opportunities · Dubai, UAE</p>
+        <h1>Sharwin<br><span>Vas<span class="accent-dot">.</span></span></h1>
+        <div class="hero-subline"><div class="hero-title">Software Developer</div><p>Engineering fresher with hands-on experience in machine learning, data analysis and full-stack development.</p></div>
+        <div class="hero-actions"><a class="button button--solid" href="#projects">Explore the work <span>↗</span></a><a class="button button--ghost" href="#contact">Get in touch <span>↓</span></a></div>
+      </div>
+      <div class="hero-side reveal reveal--delay"><div class="hero-index">01</div><div class="hero-side-line"></div><p>Machine learning<br>Data analysis<br>Full-stack development</p></div>
+      <div class="scroll-cue"><span>Scroll to explore</span><i></i></div>
+    </section>
+
+    <section id="about" class="section-pad section-border about-section">
+      <div class="section-kicker">02 / ABOUT</div>
+      <div class="about-layout"><div><h2 class="display-heading">Building systems<br><em>that mean something.</em></h2></div>
+        <div class="about-copy"><p class="about-lead">I’m an engineering fresher with practical experience across machine learning, data analysis and full-stack development.</p><p>I like working at the intersection of intelligent models and useful interfaces — taking a problem from data and experimentation through to an application people can actually use.</p>
+          <div class="about-meta"><div><span>Focus</span><strong>ML · NLP · Full Stack</strong></div><div><span>Based in</span><strong>Dubai, UAE</strong></div><div><span>Education</span><strong>B.E. · Information Science</strong></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="marquee-section" aria-label="Skills marquee"><div class="marquee-label">TOOLS I LIKE TO BUILD WITH</div><div class="marquee-track"><div class="marquee-inner" id="marquee-inner"></div></div></section>
+
+    <section id="skills" class="section-pad section-border skills-section">
+      <div class="section-kicker">03 / SKILLS</div>
+      <div class="section-intro-row"><h2 class="display-heading">A broad toolkit.<br><em>One workflow.</em></h2><p>From model training and data preparation to APIs, interfaces and deployment — the stack is shaped around shipping useful software.</p></div>
+      <div class="skills-bento" id="skills-bento"></div>
+    </section>
+
+    <section id="projects" class="section-pad section-border projects-section">
+      <div class="section-kicker">04 / SELECTED WORK</div>
+      <div class="section-intro-row projects-intro"><h2 class="display-heading">Projects with<br><em>proof points.</em></h2><p>Each build is framed around the problem, the technology and the measurable outcome — not just a list of tools.</p></div>
+      <div class="project-grid" id="project-grid"></div>
+    </section>
+
+    <section id="education" class="section-pad section-border education-section">
+      <div class="section-kicker">05 / EDUCATION + CERTIFICATIONS</div>
+      <div class="education-layout"><div><h2 class="display-heading">The foundation<br><em>behind the work.</em></h2><p class="education-note">A focused technical foundation, supported by targeted coursework in databases, spreadsheets, AI and machine learning.</p></div>
+        <div class="education-stack"><div class="education-block"><div class="mini-label">EDUCATION</div><div id="education-list"></div></div><div class="cert-block"><div class="mini-label">CERTIFICATIONS</div><div class="cert-grid" id="cert-grid"></div></div></div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact-section section-pad">
+      <div class="contact-ghost">LET’S<br>BUILD.</div><div class="contact-content"><div class="section-kicker">06 / CONTACT</div><h2>Have a problem worth<br><em>building around?</em></h2><p>Let’s start with the problem, then make the technology earn its place.</p><a class="contact-email" href="mailto:sharwinvas@gmail.com">sharwinvas@gmail.com<span>↗</span></a><div class="contact-links"><a href="https://linkedin.com/in/sharwinvas" target="_blank" rel="noreferrer">LinkedIn <span>↗</span></a><a href="https://github.com/SharwinVas" target="_blank" rel="noreferrer">GitHub <span>↗</span></a></div></div>
+    </section>
+  </main>
+  <footer class="footer"><span>© <span id="year"></span> Sharwin Vas</span><span>Software Developer · Dubai, UAE</span><a href="#top">Back to top ↑</a></footer>
+
+  <div class="modal-backdrop" id="modal-backdrop" hidden><div class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title"><button class="modal-close" id="modal-close" type="button" aria-label="Close project details">×</button><p class="project-eyebrow" id="modal-eyebrow"></p><h3 id="modal-title"></h3><p class="modal-proof" id="modal-proof"></p><div class="modal-divider"></div><ul id="modal-details"></ul><div class="tag-list" id="modal-tags"></div></div></div>
+</div>
+<script src="./main.js"></script>
+</body>
+</html>

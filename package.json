@@ -1,0 +1,12 @@
+{
+  "name": "sharwin-vas-portfolio",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Cinematic personal portfolio for Sharwin Vas",
+  "type": "module",
+  "scripts": {
+    "dev": "node server.mjs",
+    "build": "node build.mjs",
+    "preview": "node server.mjs --preview"
+  }
+}
